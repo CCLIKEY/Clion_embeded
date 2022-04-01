@@ -1,0 +1,3 @@
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/basic_project/cmake-build-debug/CMakeFiles/basic_project.elf.dir
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/basic_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/basic_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
