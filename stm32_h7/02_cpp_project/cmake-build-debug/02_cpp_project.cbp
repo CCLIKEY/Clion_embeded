@@ -42,6 +42,7 @@
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Drivers/CMSIS/Include"/>
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Arduino"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Arduino/avr"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -71,6 +72,7 @@
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Drivers/CMSIS/Include"/>
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Arduino"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Arduino/avr"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -97,6 +99,12 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Arduino/arduino.h">
+			<Option target="02_cpp_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Arduino/avr/interrupt.h">
+			<Option target="02_cpp_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Arduino/avr/pgmspace.h">
 			<Option target="02_cpp_project.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Arduino/common.h">

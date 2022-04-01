@@ -42,7 +42,10 @@ CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32H7xx_HAL_
 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 
 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj: ../Arduino/arduino.h
+CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj: ../Arduino/avr/pgmspace.h
+CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj: ../Arduino/binary.h
 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj: ../Arduino/common.h
+CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj: ../Arduino/mcu_type.h
 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/gpio.h
 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/main.h
 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/stm32h7xx_hal_conf.h

@@ -52,14 +52,17 @@ include_directories(Core/Inc
                     Drivers/CMSIS/Device/ST/STM32H7xx/Include
                     Drivers/CMSIS/Include
                     Arduino
+                    Arduino/avr
         )
 
 add_definitions(-DUSE_HAL_DRIVER -DSTM32H750xx)
 
-file(GLOB_RECURSE SOURCES "startup/*.*"
-                          "Drivers/*.*"
-                          "Core/*.*"
-                          "Arduino/*.*"
+file(GLOB_RECURSE SOURCES
+        "startup/*.*"
+        "Drivers/*.*"
+        "Core/*.*"
+        "Arduino/*.*"
+        "Arduino/avr/*.*"
 
         )
 

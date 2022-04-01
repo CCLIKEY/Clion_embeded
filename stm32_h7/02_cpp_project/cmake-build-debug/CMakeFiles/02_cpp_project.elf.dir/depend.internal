@@ -43,7 +43,10 @@ CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
  C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Core/Src/gpio.c
 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
  ../Arduino/arduino.h
+ ../Arduino/avr/pgmspace.h
+ ../Arduino/binary.h
  ../Arduino/common.h
+ ../Arduino/mcu_type.h
  ../Core/Inc/gpio.h
  ../Core/Inc/main.h
  ../Core/Inc/stm32h7xx_hal_conf.h

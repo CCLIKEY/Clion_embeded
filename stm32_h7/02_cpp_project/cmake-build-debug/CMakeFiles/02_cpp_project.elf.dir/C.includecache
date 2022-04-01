@@ -7,8 +7,42 @@
 #IncludeRegexTransform: 
 
 ../Arduino/arduino.h
+stdlib.h
+../Arduino/stdlib.h
+stdbool.h
+../Arduino/stdbool.h
+binary.h
+../Arduino/binary.h
+avr/pgmspace.h
+../Arduino/avr/pgmspace.h
+mcu_type.h
+../Arduino/mcu_type.h
+gpio.h
+../Arduino/gpio.h
+WCharacter.h
+../Arduino/WCharacter.h
+WString.h
+../Arduino/WString.h
+WMath.h
+../Arduino/WMath.h
+Tone.h
+../Arduino/Tone.h
+HardwareSerial.h
+../Arduino/HardwareSerial.h
+
+../Arduino/avr/pgmspace.h
+inttypes.h
+-
+
+../Arduino/binary.h
 
 ../Arduino/common.h
+main.h
+../Arduino/main.h
+
+../Arduino/mcu_type.h
+stm32h750xx.h
+../Arduino/stm32h750xx.h
 main.h
 ../Arduino/main.h
 

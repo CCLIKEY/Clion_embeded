@@ -10,9 +10,6 @@ extern "C" {
 #include "main.h"
 void initial_do(void);
 void loop_do(void);
-
-
-
 #ifdef __cplusplus
 }
 

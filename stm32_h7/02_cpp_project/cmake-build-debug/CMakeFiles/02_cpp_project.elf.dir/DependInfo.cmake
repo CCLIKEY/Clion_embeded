@@ -24,6 +24,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Device/ST/STM32H7xx/Include"
   "../Drivers/CMSIS/Include"
   "../Arduino"
+  "../Arduino/avr"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Core/Src/gpio.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/cmake-build-debug/CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj"
@@ -67,6 +68,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Device/ST/STM32H7xx/Include"
   "../Drivers/CMSIS/Include"
   "../Arduino"
+  "../Arduino/avr"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/Arduino/main.cpp" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/02_cpp_project/cmake-build-debug/CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj"
@@ -87,6 +89,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Device/ST/STM32H7xx/Include"
   "../Drivers/CMSIS/Include"
   "../Arduino"
+  "../Arduino/avr"
   )
 
 # Targets to which this target links.
