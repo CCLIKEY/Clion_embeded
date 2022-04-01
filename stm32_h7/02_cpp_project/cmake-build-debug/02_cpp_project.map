@@ -70,6 +70,18 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .text._Z6millisv
+                0x00000000        0x8 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .ARM.extab.text._Z6millisv
+                0x00000000        0xc CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .ARM.exidx.text._Z6millisv
+                0x00000000        0x8 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .text._Z6microsv
+                0x00000000       0x3c CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .ARM.extab.text._Z6microsv
+                0x00000000        0xc CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .ARM.exidx.text._Z6microsv
+                0x00000000        0x8 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
  .ARM.extab.text.initial_do
                 0x00000000        0x0 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
  .text          0x00000000        0x0 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
@@ -1858,120 +1870,120 @@ LOAD c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../..
 LOAD c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0x9db5
- .debug_info    0x00000000     0x1936 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
- .debug_info    0x00001936      0x676 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x00001fac      0x6fb CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
- .debug_info    0x000026a7      0x4a0 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_info    0x00002b47      0x145 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_info    0x00002c8c      0x835 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
- .debug_info    0x000034c1      0xaf5 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_info    0x00003fb6     0x16a6 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_info    0x0000565c     0x13f0 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_info    0x00006a4c      0xd66 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_info    0x000077b2     0x122e CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_info    0x000089e0     0x13b3 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_info    0x00009d93       0x22 CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
+.debug_info     0x00000000     0x9e77
+ .debug_info    0x00000000     0x19f8 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .debug_info    0x000019f8      0x676 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
+ .debug_info    0x0000206e      0x6fb CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00002769      0x4a0 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_info    0x00002c09      0x145 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_info    0x00002d4e      0x835 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x00003583      0xaf5 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_info    0x00004078     0x16a6 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_info    0x0000571e     0x13f0 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_info    0x00006b0e      0xd66 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_info    0x00007874     0x122e CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_info    0x00008aa2     0x13b3 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_info    0x00009e55       0x22 CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
 
-.debug_abbrev   0x00000000     0x1744
- .debug_abbrev  0x00000000      0x1f9 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
- .debug_abbrev  0x000001f9      0x181 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x0000037a      0x1e6 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000560       0xd7 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_abbrev  0x00000637       0x7e CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_abbrev  0x000006b5      0x1da CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x0000088f      0x162 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_abbrev  0x000009f1      0x264 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_abbrev  0x00000c55      0x37d CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_abbrev  0x00000fd2      0x239 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_abbrev  0x0000120b      0x29b CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x000014a6      0x28c CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_abbrev  0x00001732       0x12 CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
+.debug_abbrev   0x00000000     0x1787
+ .debug_abbrev  0x00000000      0x23c CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .debug_abbrev  0x0000023c      0x181 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x000003bd      0x1e6 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x000005a3       0xd7 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_abbrev  0x0000067a       0x7e CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_abbrev  0x000006f8      0x1da CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x000008d2      0x162 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_abbrev  0x00000a34      0x264 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_abbrev  0x00000c98      0x37d CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001015      0x239 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_abbrev  0x0000124e      0x29b CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x000014e9      0x28c CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001775       0x12 CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
 
-.debug_aranges  0x00000000      0x678
+.debug_aranges  0x00000000      0x688
  .debug_aranges
-                0x00000000       0x28 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+                0x00000000       0x38 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
  .debug_aranges
-                0x00000028       0x20 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
+                0x00000038       0x20 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
  .debug_aranges
-                0x00000048       0x30 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
+                0x00000058       0x30 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x00000078       0x20 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+                0x00000088       0x20 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
  .debug_aranges
-                0x00000098       0x60 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x000000a8       0x60 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
  .debug_aranges
-                0x000000f8       0xb0 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
+                0x00000108       0xb0 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
  .debug_aranges
-                0x000001a8       0x28 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
+                0x000001b8       0x28 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
  .debug_aranges
-                0x000001d0      0x198 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x000001e0      0x198 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
  .debug_aranges
-                0x00000368       0xb0 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x00000378       0xb0 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000418       0x58 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+                0x00000428       0x58 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000470      0x158 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+                0x00000480      0x158 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
  .debug_aranges
-                0x000005c8       0x88 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x000005d8       0x88 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000650       0x28 CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
+                0x00000660       0x28 CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
 
-.debug_ranges   0x00000000      0x6e0
- .debug_ranges  0x00000000       0x18 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
- .debug_ranges  0x00000018       0x10 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
- .debug_ranges  0x00000028       0x20 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x00000048       0x10 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_ranges  0x00000058       0x50 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_ranges  0x000000a8       0xa0 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
- .debug_ranges  0x00000148       0x18 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_ranges  0x00000160      0x188 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_ranges  0x000002e8      0x100 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_ranges  0x000003e8       0x48 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_ranges  0x00000430      0x1a8 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_ranges  0x000005d8       0xe8 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_ranges  0x000006c0       0x20 CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
+.debug_ranges   0x00000000      0x6f0
+ .debug_ranges  0x00000000       0x28 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .debug_ranges  0x00000028       0x10 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
+ .debug_ranges  0x00000038       0x20 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x00000058       0x10 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_ranges  0x00000068       0x50 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_ranges  0x000000b8       0xa0 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
+ .debug_ranges  0x00000158       0x18 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_ranges  0x00000170      0x188 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_ranges  0x000002f8      0x100 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_ranges  0x000003f8       0x48 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_ranges  0x00000440      0x1a8 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_ranges  0x000005e8       0xe8 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_ranges  0x000006d0       0x20 CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
 
-.debug_line     0x00000000     0x4f61
- .debug_line    0x00000000      0x42e CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
- .debug_line    0x0000042e      0x24e CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x0000067c      0x4c5 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00000b41      0x1ad CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_line    0x00000cee      0x1f7 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_line    0x00000ee5      0x468 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x0000134d      0x44a CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_line    0x00001797      0x994 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_line    0x0000212b      0x85f CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_line    0x0000298a      0x74b CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_line    0x000030d5      0xb54 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_line    0x00003c29     0x127a CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_line    0x00004ea3       0xbe CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
+.debug_line     0x00000000     0x5022
+ .debug_line    0x00000000      0x4ef CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .debug_line    0x000004ef      0x24e CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x0000073d      0x4c5 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00000c02      0x1ad CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_line    0x00000daf      0x1f7 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_line    0x00000fa6      0x468 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x0000140e      0x44a CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_line    0x00001858      0x994 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_line    0x000021ec      0x85f CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_line    0x00002a4b      0x74b CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_line    0x00003196      0xb54 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_line    0x00003cea     0x127a CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_line    0x00004f64       0xbe CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
 
-.debug_str      0x00000000     0x381c
- .debug_str     0x00000000      0xc7f CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
-                                0xd0a (size before relaxing)
- .debug_str     0x00000c7f      0x3b4 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
+.debug_str      0x00000000     0x3842
+ .debug_str     0x00000000      0xcde CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+                                0xd76 (size before relaxing)
+ .debug_str     0x00000cde      0x3b4 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
                                 0x511 (size before relaxing)
- .debug_str     0x00001033      0x317 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
+ .debug_str     0x00001092      0x317 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
                                 0x544 (size before relaxing)
- .debug_str     0x0000134a       0x69 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_str     0x000013a9       0x69 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
                                 0x460 (size before relaxing)
- .debug_str     0x000013b3       0xf4 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_str     0x00001412       0xf4 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
                                 0x2ad (size before relaxing)
- .debug_str     0x000014a7      0x286 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00001506      0x286 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
                                 0x499 (size before relaxing)
- .debug_str     0x0000172d      0x2c2 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_str     0x0000178c      0x2b2 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
                                 0x6d6 (size before relaxing)
- .debug_str     0x000019ef      0xf85 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_str     0x00001a3e      0xf5c CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
                                0x152d (size before relaxing)
- .debug_str     0x00002974      0x5b5 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_str     0x0000299a      0x5b5 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
                                0x10c5 (size before relaxing)
- .debug_str     0x00002f29      0x127 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_str     0x00002f4f      0x127 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
                                 0x742 (size before relaxing)
- .debug_str     0x00003050      0x591 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_str     0x00003076      0x591 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
                                 0xab7 (size before relaxing)
- .debug_str     0x000035e1      0x1cf CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_str     0x00003607      0x1cf CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
                                 0xaca (size before relaxing)
- .debug_str     0x000037b0       0x6c CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
+ .debug_str     0x000037d6       0x6c CMakeFiles/02_cpp_project.elf.dir/startup/startup_stm32h750xx.s.obj
                                  0xbe (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -1989,36 +2001,36 @@ LOAD c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7
  .comment       0x00000049       0x4a CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
 
-.debug_frame    0x00000000     0x15e4
- .debug_frame   0x00000000       0x38 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
- .debug_frame   0x00000038       0x30 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
- .debug_frame   0x00000068       0x58 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
- .debug_frame   0x000000c0       0x28 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_frame   0x000000e8       0xa8 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_frame   0x00000190      0x1a8 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
- .debug_frame   0x00000338       0x40 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_frame   0x00000378      0x360 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_frame   0x000006d8      0x158 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_frame   0x00000830       0xd0 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_frame   0x00000900      0x2f4 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_frame   0x00000bf4      0x188 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_frame   0x00000d7c       0x4c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x00000dc8       0x38 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x00000e00       0x24 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
- .debug_frame   0x00000e24      0x2d4 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
- .debug_frame   0x000010f8      0x104 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
- .debug_frame   0x000011fc       0x28 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
- .debug_frame   0x00001224       0x20 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
- .debug_frame   0x00001244       0x2c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x00001270       0x2c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x0000129c      0x114 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
- .debug_frame   0x000013b0       0x3c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
- .debug_frame   0x000013ec       0x5c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00001448       0x20 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x00001468       0x34 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x0000149c       0xb0 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x0000154c       0x64 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
- .debug_frame   0x000015b0       0x34 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+.debug_frame    0x00000000     0x1614
+ .debug_frame   0x00000000       0x68 CMakeFiles/02_cpp_project.elf.dir/Arduino/main.cpp.obj
+ .debug_frame   0x00000068       0x30 CMakeFiles/02_cpp_project.elf.dir/Core/Src/gpio.c.obj
+ .debug_frame   0x00000098       0x58 CMakeFiles/02_cpp_project.elf.dir/Core/Src/main.c.obj
+ .debug_frame   0x000000f0       0x28 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_frame   0x00000118       0xa8 CMakeFiles/02_cpp_project.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_frame   0x000001c0      0x1a8 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj
+ .debug_frame   0x00000368       0x40 CMakeFiles/02_cpp_project.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_frame   0x000003a8      0x360 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_frame   0x00000708      0x158 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_frame   0x00000860       0xd0 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_frame   0x00000930      0x2f4 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_frame   0x00000c24      0x188 CMakeFiles/02_cpp_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_frame   0x00000dac       0x4c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00000df8       0x38 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00000e30       0x24 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x00000e54      0x2d4 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+ .debug_frame   0x00001128      0x104 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
+ .debug_frame   0x0000122c       0x28 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+ .debug_frame   0x00001254       0x20 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+ .debug_frame   0x00001274       0x2c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x000012a0       0x2c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x000012cc      0x114 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .debug_frame   0x000013e0       0x3c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+ .debug_frame   0x0000141c       0x5c c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001478       0x20 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00001498       0x34 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x000014cc       0xb0 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x0000157c       0x64 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .debug_frame   0x000015e0       0x34 c:/gun_tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
 
 .debug_loc      0x00000000     0x2388
  .debug_loc     0x00000000      0x436 CMakeFiles/02_cpp_project.elf.dir/Core/Src/syscalls.c.obj

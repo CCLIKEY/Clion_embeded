@@ -8,6 +8,12 @@
 extern "C" {
 #endif
 #include "main.h"
+
+
+#define F_CPU                   SystemCoreClock
+#define CYCLES_PER_MICROSECOND (F_CPU / 1000000U)
+#define SysTick_LoadValue (F_CPU / 1000U)
+
 void initial_do(void);
 void loop_do(void);
 #ifdef __cplusplus
