@@ -1,0 +1,3 @@
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

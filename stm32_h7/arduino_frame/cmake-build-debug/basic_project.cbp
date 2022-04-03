@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="basic_project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basic_project.elf">
+				<Option output="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/basic_project.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H750xx"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Core/Inc"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/avr"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/cdc"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/hid"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Board"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 basic_project.elf"/>
+					<CompileFile command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basic_project.elf/fast">
+				<Option output="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/basic_project.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H750xx"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Core/Inc"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/avr"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/cdc"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/hid"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Board"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 basic_project.elf/fast"/>
+					<CompileFile command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/GUN_TOOLS/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Arduino.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Client.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/HardwareSerial.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/HardwareSerial.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/HardwareTimer.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/HardwareTimer.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/IPAddress.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/IPAddress.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Print.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Print.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Printable.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/RingBuffer.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/RingBuffer.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Server.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Stream.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Stream.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Tone.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Tone.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/USBSerial.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/USBSerial.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/Udp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/VirtIOSerial.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/VirtIOSerial.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/WCharacter.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/WInterrupts.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/WInterrupts.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/WMath.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/WMath.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/WSerial.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/WSerial.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/WString.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/WString.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/abi.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/avr/dtostrf.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/avr/dtostrf.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/avr/pgmspace.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/binary.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/board.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/board.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/core_debug.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/hooks.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/itoa.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/itoa.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/main.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/new.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/pins_arduino.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/pins_arduino.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/pins_arduino_analog.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/pins_arduino_digital.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_adc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_bdma.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_bus.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_comp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_cordic.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_cortex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_crc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_crs.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_dac.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_dcache.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_delayblock.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_dlyb.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_dma.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_dma2d.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_dmamux.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_exti.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_fmac.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_fmc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_fmpi2c.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_fsmc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_gpio.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_hrtim.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_hsem.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_i2c.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_icache.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_ipcc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_iwdg.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_lpgpio.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_lptim.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_lpuart.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_mdma.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_opamp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_pka.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_pwr.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_rcc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_rng.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_rtc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_sdmmc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_spi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_swpmi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_system.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_tim.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_ucpd.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_usart.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_usb.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_utils.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/LL/stm32yyxx_ll_wwdg.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/device.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/generic/condition.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/generic/cortexm/sys.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/generic/generic_device.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/generic/generic_init.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/generic/generic_io.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/generic/generic_shmem.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/generic/time.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/init.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/io.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/log.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/libmetal/shmem.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/mbox_ipcc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/mbox_ipcc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/open-amp/remoteproc/remoteproc_virtio.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/open-amp/rpmsg/rpmsg.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/open-amp/rpmsg/rpmsg_virtio.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/openamp.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/openamp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/openamp_conf.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/rsc_table.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/rsc_table.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/virt_uart.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/virtio/virtio.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/virtio/virtqueue.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/virtio_buffer.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/virtio_buffer.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/virtio_config.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/virtio_log.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/OpenAMP/virtio_log.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/PeripheralPins.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/PinAF_STM32F1.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/PinConfigured.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/PinNames.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/PinNamesTypes.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/PortNames.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/PortNames.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/analog.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/analog.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/backup.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/bootloader.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/bootloader.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/clock.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/clock.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/core_callback.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/core_callback.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/digital_io.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/dwt.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/dwt.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/hw_config.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/hw_config.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/interrupt.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/interrupt.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/lock_resource.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/otp.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/otp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/pinconfig.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/pinmap.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/pinmap.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/startup_stm32yyxx.S">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/stm32_def.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/stm32_def.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/stm32_def_build.h.nocompile">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/stm32yyxx_hal_conf.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/system_stm32h7xx.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/timer.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/timer.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/uart.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/uart.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/cdc/cdc_queue.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/cdc/cdc_queue.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/cdc/usbd_cdc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/cdc/usbd_cdc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/cdc/usbd_cdc_if.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/cdc/usbd_cdc_if.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/hid/usbd_hid_composite.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/hid/usbd_hid_composite.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/hid/usbd_hid_composite_if.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/hid/usbd_hid_composite_if.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usb_device_core.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usb_device_ctlreq.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usb_device_ioreq.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usbd_conf.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usbd_conf.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usbd_desc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usbd_desc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usbd_ep_conf.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usbd_ep_conf.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usbd_if.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/stm32/usb/usbd_if.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/utils.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/variant.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_analog.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_analog.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_constants.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_digital.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_digital.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_private.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_pulse.cpp">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_pulse.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_shift.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_shift.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_time.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Arduino/wiring_time.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32_assert_template.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cec.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_comp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_conf_template.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cordic.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cryp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cryp_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dac.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dac_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dcmi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dfsdm.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dfsdm_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma2d.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dsi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dts.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_eth.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_eth_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fmac.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gfxmmu.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hash.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hash_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hrtim.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2s.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2s_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_irda.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_irda_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_iwdg.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_jpeg.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_lptim.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ltdc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ltdc_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdios.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mmc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mmc_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_nand.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_nor.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_opamp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_opamp_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ospi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_otfdec.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pssi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_qspi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ramecc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rng.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rng_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rtc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rtc_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sai.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sai_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sdram.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smartcard.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smartcard_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smbus.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spdifrx.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sram.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_swpmi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_usart.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_usart_ex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_wwdg.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bdma.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_comp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cordic.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dac.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma2d.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmac.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hrtim.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_i2c.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_iwdg.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_lptim.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_lpuart.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_mdma.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_opamp.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rng.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rtc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_swpmi.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_tim.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_wwdg.h">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/License.md">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/README.md">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Release_Notes.html">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cec.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_comp.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cordic.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dac.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dac_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dcmi.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dfsdm.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dfsdm_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dts.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_eth.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_eth_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fmac.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gfxmmu.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hcd.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hrtim.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2s.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2s_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_irda.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_lptim.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdios.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mmc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mmc_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_nand.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_nor.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_opamp.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_opamp_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_otfdec.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pssi.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ramecc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sai.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sai_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_smartcard.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_smartcard_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_smbus.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spdifrx.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sram.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_swpmi.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_wwdg.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_adc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_bdma.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_comp.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_cordic.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_crc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_crs.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dac.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dma.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dma2d.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_exti.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmac.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_gpio.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_hrtim.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_i2c.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_lptim.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_lpuart.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_mdma.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_opamp.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_pwr.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_rcc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_rng.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_rtc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_spi.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_swpmi.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_tim.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usart.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_utils.c">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/_htmresc/mini-st.css">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/Drivers/STM32H7xx_HAL_Driver/_htmresc/st_logo.png">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/STM32H750XBHx_FLASH.ld">
+			<Option target="basic_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/arduino_frame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
