@@ -1,7 +1,6 @@
 #include "common.h"
 
 
-
 /**
   * @brief  获取单片机自上电以来经过的毫秒数
   * @param  无
