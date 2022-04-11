@@ -26,6 +26,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "ff.h"
 #include "retarget.h"
 #include "string.h"
 /* USER CODE END Includes */
@@ -58,6 +59,25 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+FATFS SDFatFs;  /* File system object for SD card logical drive */
+FIL MyFile;     /* File object */
+void fatfs_test() {
+    FRESULT res;                                          /* FatFs function common result code */
+    uint32_t byteswritten, bytesread;                     /* File write/read counts */
+    uint8_t wtext[] = "This is STM32 working with FatFs"; /* File write buffer */
+    uint8_t rtext[100];
+    if(f_open(&MyFile, "STM32.TXT", FA_CREATE_ALWAYS | FA_WRITE) != FR_OK)
+    {
+        printf("build a file named by STM32.TXT\r\n");
+    }
+    else
+    {
+        printf("don\'t build a file named by STM32.TXT\r\n");
+    }
+    res = f_write(&MyFile, wtext, sizeof(wtext), (void *)&byteswritten);
+    f_close(&MyFile);
+}
 
 /* USER CODE END 0 */
 
@@ -103,16 +123,7 @@ int main(void)
   else{
      printf("SD init fialed!\r\n");
   }
-  uint8_t sd_data_bufer[512];
-    memset(&sd_data_bufer,0,sizeof(sd_data_bufer));
-//    SD_HandleTypeDef *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks, uint32_t Timeout
-  if(HAL_SD_ReadBlocks(&hsd,sd_data_bufer,0,1,10)==HAL_OK)
-  {
-    printf("read the 0 block finished!");
-  }
-    for (int i = 0; i < 512; ++i) {
-        printf("%x ",sd_data_bufer[i]);
-    }
+    fatfs_test();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -123,7 +134,6 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     HAL_GPIO_TogglePin(LED_RUN_GPIO_Port,LED_RUN_Pin);
-    printf("running:%5d\r\n",HAL_GetTick());
     HAL_Delay(1000);
   }
   /* USER CODE END 3 */

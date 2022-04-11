@@ -72,6 +72,7 @@ CMakeFiles/wave_recongize_stm32_f1.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32
 CMakeFiles/wave_recongize_stm32_f1.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_sdmmc.h
 CMakeFiles/wave_recongize_stm32_f1.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 
+CMakeFiles/wave_recongize_stm32_f1.elf.dir/Core/Src/main.c.obj: ../APP/utils/retarget.h
 CMakeFiles/wave_recongize_stm32_f1.elf.dir/Core/Src/main.c.obj: ../Core/Inc/gpio.h
 CMakeFiles/wave_recongize_stm32_f1.elf.dir/Core/Src/main.c.obj: ../Core/Inc/main.h
 CMakeFiles/wave_recongize_stm32_f1.elf.dir/Core/Src/main.c.obj: ../Core/Inc/sdio.h

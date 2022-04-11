@@ -12,39 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5ce234-496e-4ac6-af5a-353010e7cb0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/MyFunction/cevent/cevent.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/MyFunction/cevent/cevent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/MyFunction/cpost/cpost.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/MyFunction/cpost/cpost.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APP/utils/retarget.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APP/utils/retarget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stm32f103c8_blue_pill.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/Arduino/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/Arduino/common.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/Arduino/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/Arduino/userAPP.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.map" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Arduino/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wave_recongize_stm32_f1.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wave_recongize_stm32_f1.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wave_recongize_stm32_f1.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wave_recongize_stm32_f1.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wave_recongize_stm32_f1.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wave_recongize_stm32_f1.elf.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wave_recongize_stm32_f1.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wave_recongize_stm32_f1.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/wave_recongize_stm32_f1.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/wave_recongize_stm32_f1.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/wave_recongize_stm32_f1.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/wave_recongize_stm32_f1.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/wave_recongize_stm32_f1.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/wave_recongize_stm32_f1.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/wave_recongize_stm32_f1.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/wave_recongize_stm32_f1.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +70,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/APP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HSQLDB" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -139,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649645544065</updated>
-      <workItem from="1649645566128" duration="7472000" />
+      <workItem from="1649645566128" duration="8910000" />
     </task>
     <servers />
   </component>
