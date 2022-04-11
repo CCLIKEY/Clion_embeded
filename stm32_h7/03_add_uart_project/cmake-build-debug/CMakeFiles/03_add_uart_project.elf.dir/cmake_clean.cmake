@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "03_add_uart_project.elf"
   "03_add_uart_project.elf.manifest"
   "03_add_uart_project.elf.pdb"
-  "CMakeFiles/03_add_uart_project.elf.dir/Arduino/main.cpp.obj"
+  "CMakeFiles/03_add_uart_project.elf.dir/Arduino/userAPP.c.obj"
   "CMakeFiles/03_add_uart_project.elf.dir/Arduino/utils/retarget.c.obj"
   "CMakeFiles/03_add_uart_project.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/03_add_uart_project.elf.dir/Core/Src/main.c.obj"
@@ -31,10 +31,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/03_add_uart_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
   "CMakeFiles/03_add_uart_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
   "CMakeFiles/03_add_uart_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+  "CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cevent/cevent.c.obj"
+  "CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cpost/cpost.c.obj"
   "CMakeFiles/03_add_uart_project.elf.dir/startup/startup_stm32h750xx.s.obj"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C CXX)
+foreach(lang ASM C)
   include(CMakeFiles/03_add_uart_project.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

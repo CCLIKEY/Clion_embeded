@@ -34,6 +34,8 @@
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino"/>
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/avr"/>
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/utils"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cevent"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cpost"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -65,6 +67,8 @@
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino"/>
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/avr"/>
 					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/utils"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cevent"/>
+					<Add directory="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cpost"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\gun_tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -115,10 +119,10 @@
 		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/common.h">
 			<Option target="03_add_uart_project.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/main.cpp">
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/mcu_type.h">
 			<Option target="03_add_uart_project.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/mcu_type.h">
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/userAPP.c">
 			<Option target="03_add_uart_project.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/utils/retarget.c">
@@ -371,6 +375,18 @@
 			<Option target="03_add_uart_project.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c">
+			<Option target="03_add_uart_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cevent/cevent.c">
+			<Option target="03_add_uart_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cevent/cevent.h">
+			<Option target="03_add_uart_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cpost/cpost.c">
+			<Option target="03_add_uart_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cpost/cpost.h">
 			<Option target="03_add_uart_project.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/STM32H750XBHx_FLASH.ld">

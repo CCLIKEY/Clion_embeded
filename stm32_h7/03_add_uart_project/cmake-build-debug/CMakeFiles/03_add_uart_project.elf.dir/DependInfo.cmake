@@ -2,7 +2,6 @@
 set(CMAKE_DEPENDS_LANGUAGES
   "ASM"
   "C"
-  "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
@@ -26,8 +25,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Arduino"
   "../Arduino/avr"
   "../Arduino/utils"
+  "../MyFunction/cevent"
+  "../MyFunction/cpost"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/userAPP.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Arduino/userAPP.c.obj"
   "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/utils/retarget.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Arduino/utils/retarget.c.obj"
   "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Core/Src/gpio.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Core/Src/gpio.c.obj"
   "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Core/Src/main.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Core/Src/main.c.obj"
@@ -56,6 +58,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
   "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
   "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+  "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cevent/cevent.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cevent/cevent.c.obj"
+  "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/MyFunction/cpost/cpost.c" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cpost/cpost.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -75,28 +79,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Arduino"
   "../Arduino/avr"
   "../Arduino/utils"
-  )
-set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/main.cpp" "C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Arduino/main.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "STM32H750xx"
-  "USE_HAL_DRIVER"
-  )
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../Core/Inc"
-  "../Drivers/STM32H7xx_HAL_Driver/Inc"
-  "../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
-  "../Drivers/CMSIS/Device/ST/STM32H7xx/Include"
-  "../Drivers/CMSIS/Include"
-  "../Arduino"
-  "../Arduino/avr"
-  "../Arduino/utils"
+  "../MyFunction/cevent"
+  "../MyFunction/cpost"
   )
 
 # Targets to which this target links.

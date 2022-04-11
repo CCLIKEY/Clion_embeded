@@ -11,6 +11,11 @@ extern "C" {
 #include "main.h"
 #include "usart.h"
 #include "retarget.h"
+#include "stdio.h"
+
+
+
+
 
 #define F_CPU                   SystemCoreClock
 #define CYCLES_PER_MICROSECOND (F_CPU / 1000000U)  // 一个us里480个周期

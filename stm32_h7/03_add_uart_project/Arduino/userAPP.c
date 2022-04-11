@@ -1,5 +1,13 @@
 #include "common.h"
 #include "stdio.h"
+#include "cpost.h"
+
+
+
+void say_hello()
+{
+    printf("hello\r\n");
+}
 
 /**
   * @brief  获取单片机自上电以来经过的毫秒数
@@ -34,6 +42,7 @@ void initial_do(void)
     printf("current time :%d us\r\n",micros());
 
 
+
     /*
     hello stm32h750!
     system clk:480000000
@@ -48,14 +57,7 @@ void initial_do(void)
     current time :106 ms
     current time :208 ms
     current time :209927 us
-
-
-
      */
-
-
-
-
 }
 
 void loop_do(void)
@@ -63,6 +65,13 @@ void loop_do(void)
 //    HAL_UART_Transmit(&huart4,(const uint8_t*)"hello world\r\n",13,10);
     HAL_GPIO_TogglePin(LED_BLUE_GPIO_Port,LED_BLUE_Pin);
     HAL_Delay(500);
+    cpostProcess();
+    static uint32_t time = 0 ;
+    if(millis()-time>2000)
+    {
+        time = millis();
+        cpost(say_hello);
+    }
 }
 
 

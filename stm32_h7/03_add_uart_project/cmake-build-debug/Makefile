@@ -142,32 +142,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/build
 .PHONY : 03_add_uart_project.elf/fast
 
-Arduino/main.obj: Arduino/main.cpp.obj
+Arduino/userAPP.obj: Arduino/userAPP.c.obj
 
-.PHONY : Arduino/main.obj
+.PHONY : Arduino/userAPP.obj
 
 # target to build an object file
-Arduino/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/Arduino/main.cpp.obj
-.PHONY : Arduino/main.cpp.obj
+Arduino/userAPP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/Arduino/userAPP.c.obj
+.PHONY : Arduino/userAPP.c.obj
 
-Arduino/main.i: Arduino/main.cpp.i
+Arduino/userAPP.i: Arduino/userAPP.c.i
 
-.PHONY : Arduino/main.i
+.PHONY : Arduino/userAPP.i
 
 # target to preprocess a source file
-Arduino/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/Arduino/main.cpp.i
-.PHONY : Arduino/main.cpp.i
+Arduino/userAPP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/Arduino/userAPP.c.i
+.PHONY : Arduino/userAPP.c.i
 
-Arduino/main.s: Arduino/main.cpp.s
+Arduino/userAPP.s: Arduino/userAPP.c.s
 
-.PHONY : Arduino/main.s
+.PHONY : Arduino/userAPP.s
 
 # target to generate assembly for a file
-Arduino/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/Arduino/main.cpp.s
-.PHONY : Arduino/main.cpp.s
+Arduino/userAPP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/Arduino/userAPP.c.s
+.PHONY : Arduino/userAPP.c.s
 
 Arduino/utils/retarget.obj: Arduino/utils/retarget.c.obj
 
@@ -925,6 +925,60 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 
+MyFunction/cevent/cevent.obj: MyFunction/cevent/cevent.c.obj
+
+.PHONY : MyFunction/cevent/cevent.obj
+
+# target to build an object file
+MyFunction/cevent/cevent.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cevent/cevent.c.obj
+.PHONY : MyFunction/cevent/cevent.c.obj
+
+MyFunction/cevent/cevent.i: MyFunction/cevent/cevent.c.i
+
+.PHONY : MyFunction/cevent/cevent.i
+
+# target to preprocess a source file
+MyFunction/cevent/cevent.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cevent/cevent.c.i
+.PHONY : MyFunction/cevent/cevent.c.i
+
+MyFunction/cevent/cevent.s: MyFunction/cevent/cevent.c.s
+
+.PHONY : MyFunction/cevent/cevent.s
+
+# target to generate assembly for a file
+MyFunction/cevent/cevent.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cevent/cevent.c.s
+.PHONY : MyFunction/cevent/cevent.c.s
+
+MyFunction/cpost/cpost.obj: MyFunction/cpost/cpost.c.obj
+
+.PHONY : MyFunction/cpost/cpost.obj
+
+# target to build an object file
+MyFunction/cpost/cpost.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cpost/cpost.c.obj
+.PHONY : MyFunction/cpost/cpost.c.obj
+
+MyFunction/cpost/cpost.i: MyFunction/cpost/cpost.c.i
+
+.PHONY : MyFunction/cpost/cpost.i
+
+# target to preprocess a source file
+MyFunction/cpost/cpost.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cpost/cpost.c.i
+.PHONY : MyFunction/cpost/cpost.c.i
+
+MyFunction/cpost/cpost.s: MyFunction/cpost/cpost.c.s
+
+.PHONY : MyFunction/cpost/cpost.s
+
+# target to generate assembly for a file
+MyFunction/cpost/cpost.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_add_uart_project.elf.dir\build.make CMakeFiles/03_add_uart_project.elf.dir/MyFunction/cpost/cpost.c.s
+.PHONY : MyFunction/cpost/cpost.c.s
+
 startup/startup_stm32h750xx.obj: startup/startup_stm32h750xx.s.obj
 
 .PHONY : startup/startup_stm32h750xx.obj
@@ -943,9 +997,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 03_add_uart_project.elf
-	@echo ... Arduino/main.obj
-	@echo ... Arduino/main.i
-	@echo ... Arduino/main.s
+	@echo ... Arduino/userAPP.obj
+	@echo ... Arduino/userAPP.i
+	@echo ... Arduino/userAPP.s
 	@echo ... Arduino/utils/retarget.obj
 	@echo ... Arduino/utils/retarget.i
 	@echo ... Arduino/utils/retarget.s
@@ -1030,6 +1084,12 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s
+	@echo ... MyFunction/cevent/cevent.obj
+	@echo ... MyFunction/cevent/cevent.i
+	@echo ... MyFunction/cevent/cevent.s
+	@echo ... MyFunction/cpost/cpost.obj
+	@echo ... MyFunction/cpost/cpost.i
+	@echo ... MyFunction/cpost/cpost.s
 	@echo ... startup/startup_stm32h750xx.obj
 .PHONY : help
 

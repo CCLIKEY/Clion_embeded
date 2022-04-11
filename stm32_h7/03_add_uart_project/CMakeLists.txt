@@ -54,6 +54,8 @@ include_directories(Core/Inc
         Arduino
         Arduino/avr
         Arduino/utils
+        MyFunction/cevent
+        MyFunction/cpost
         )
 
 add_definitions(-DUSE_HAL_DRIVER -DSTM32H750xx)
@@ -65,6 +67,8 @@ file(GLOB_RECURSE SOURCES
         "Arduino/*.*"
         "Arduino/utils/*.*"
         "Arduino/avr/*.*"
+        "MyFunction/cpost/*.*"
+        "MyFunction/cevent/*.*"
         )
 
 set(COMMON_FLAGS "-specs=nosys.specs -specs=nano.specs -u _printf_float -u _scanf_float")

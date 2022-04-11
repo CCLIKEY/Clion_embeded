@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+da5a58e663c494d6b79550b1b04786e0 ArduinoUno_arduino_uno.ino.cpp
+f939d1779a6555c9f7ccfe548d77f9db CMakeFiles/ArduinoUno-burn
+deaf4c6908886e87782f87035c7ab3e3 CMakeFiles/ArduinoUno-size
+527e69e0ab282fe48f94074c3f492ddd CMakeFiles/ArduinoUno-upload

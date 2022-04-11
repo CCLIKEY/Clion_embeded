@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Selected/Desktop/ArduinoUno/pid/pid.c
+pid.h
+C:/Users/Selected/Desktop/ArduinoUno/pid/pid.h
+
+C:/Users/Selected/Desktop/ArduinoUno/pid/pid.h
+

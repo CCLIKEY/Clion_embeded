@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" c:\Users\Selected\Desktop\Clion_embeded\wave_recongize_stm32_f1
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Selected/Desktop/Clion_embeded/wave_recongize_stm32_f1/cmake-build-debug

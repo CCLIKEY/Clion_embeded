@@ -1,0 +1,8 @@
+C:/Users/Selected/Desktop/ArduinoUno/cmake-build-debug/CMakeFiles/uno_CORE.dir
+C:/Users/Selected/Desktop/ArduinoUno/cmake-build-debug/CMakeFiles/ArduinoUno-burn.dir
+C:/Users/Selected/Desktop/ArduinoUno/cmake-build-debug/CMakeFiles/ArduinoUno.dir
+C:/Users/Selected/Desktop/ArduinoUno/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Selected/Desktop/ArduinoUno/cmake-build-debug/CMakeFiles/ArduinoUno-upload.dir
+C:/Users/Selected/Desktop/ArduinoUno/cmake-build-debug/CMakeFiles/ArduinoUno-size.dir
+C:/Users/Selected/Desktop/ArduinoUno/cmake-build-debug/CMakeFiles/upload.dir
+C:/Users/Selected/Desktop/ArduinoUno/cmake-build-debug/CMakeFiles/edit_cache.dir

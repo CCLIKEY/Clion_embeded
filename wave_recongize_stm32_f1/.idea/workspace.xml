@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="wave_recongize_stm32_f1" targetName="wave_recongize_stm32_f1.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f5ce234-496e-4ac6-af5a-353010e7cb0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/MyFunction/cevent/cevent.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/MyFunction/cevent/cevent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/MyFunction/cpost/cpost.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/MyFunction/cpost/cpost.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/utils/retarget.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/utils/retarget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stm32f103c8_blue_pill.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/Arduino/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/Arduino/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/Arduino/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/Arduino/userAPP.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.map" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/03_add_uart_project.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Arduino/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/03_add_uart_project.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../stm32_h7/03_add_uart_project/cmake-build-debug/Makefile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1506" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="Name" />
+        <option value="Value" />
+        <option value="Description" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="27dMWmeShgwPehV07dcCSjG31D8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/APP" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="c:\Users\Selected\Desktop\Clion_embeded\wave_recongize_stm32_f1\APP" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD wave_recongize_stm32_f1">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wave_recongize_stm32_f1.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="wave_recongize_stm32_f1" TARGET_NAME="wave_recongize_stm32_f1.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="wave_recongize_stm32_f1" RUN_TARGET_NAME="wave_recongize_stm32_f1.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD wave_recongize_stm32_f1" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="wave_recongize_stm32_f1" TARGET_NAME="wave_recongize_stm32_f1.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="wave_recongize_stm32_f1" RUN_TARGET_NAME="wave_recongize_stm32_f1.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="c:\Users\Selected\Desktop\Clion_embeded\wave_recongize_stm32_f1\stm32f103c8_blue_pill.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.wave_recongize_stm32_f1.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD wave_recongize_stm32_f1" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f5ce234-496e-4ac6-af5a-353010e7cb0f" name="Default Changelist" comment="" />
+      <created>1649645544065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649645544065</updated>
+      <workItem from="1649645566128" duration="7472000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cfg" />
+  </component>
+</project>

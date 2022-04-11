@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../Arduino/common.h
-main.h
-../Arduino/main.h
-usart.h
-../Arduino/usart.h
-retarget.h
-../Arduino/retarget.h
-
 ../Arduino/utils/retarget.h
 stm32h7xx_hal.h
 ../Arduino/utils/stm32h7xx_hal.h
@@ -21,10 +13,6 @@ sys/stat.h
 -
 stdio.h
 -
-
-../Core/Inc/gpio.h
-main.h
-../Core/Inc/main.h
 
 ../Core/Inc/main.h
 stm32h7xx_hal.h
@@ -378,13 +366,25 @@ stm32h7xx_hal_uart_ex.h
 stm32h7xx_hal_def.h
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
 
-C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Core/Src/main.c
-main.h
-C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Core/Src/main.h
-usart.h
-C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Core/Src/usart.h
-gpio.h
-C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Core/Src/gpio.h
+../MyFunction/cpost/cpost.h
 common.h
-C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Core/Src/common.h
+../MyFunction/cpost/common.h
+
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/common.h
+main.h
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/main.h
+usart.h
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/usart.h
+retarget.h
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/retarget.h
+stdio.h
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/stdio.h
+
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/userAPP.c
+common.h
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/common.h
+stdio.h
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/stdio.h
+cpost.h
+C:/Users/Selected/Desktop/Clion_embeded/stm32_h7/03_add_uart_project/Arduino/cpost.h
 
